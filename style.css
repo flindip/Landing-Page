@@ -1,0 +1,48 @@
+* {
+
+    border:solid red;
+}
+
+
+
+body {
+    min-height:100vh;
+    display:  flex;
+    flex-direction:column;
+
+}
+
+.sec-one {
+
+    flex:4;
+}
+
+.sec-two {
+
+    flex: 3
+
+
+}
+
+.sec-three{
+
+    flex:2
+
+}
+
+.sec-four{
+    flex:1
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
