@@ -11,6 +11,8 @@ html{
 
 body {
 
+flex-wrap:wrap;
+
 box-sizing:border-box;
 margin:0;
 
@@ -19,19 +21,42 @@ min-height:100vh;
 display:  flex;
 flex-direction:column;
 
+
+
 }
 header {
-
+    background-color:rgb(59 112 60) ;
+    flex-basis:100px;
     display:flex;
     justify-content:space-around;
     align-items:center;
     
 }
 
+.header{
+
+    display:flex;
+}
+ 
+    
+    
+
+.top-link {
+
+    font-family: SNOT, "times new roman", sans-serif;
+     font-size: xx-large;
+   text-decoration:none;
+   -webkit-text-stroke: rgb(231, 231, 10);
+   -webkit-text-stroke-width: 1px;
+    color:rgb(182, 182, 17);
+    padding:10px;
+
+}
+
 .sec-one {
 
     display:flex;
-    flex:1;
+    flex-basis:500px; 
 }
 
 .website-awesome {
@@ -58,10 +83,12 @@ flex:0 0 500px;
 }
 
 .sec-two {
+
     display:flex;
+    justify-content:flex-start;
     align-items: center; 
     flex-direction:column;
-    flex:1;
+    flex-basis:500px;
 }
 
 
@@ -107,7 +134,7 @@ flex:0 0 500px;
     align-content:space-around;
     justify-content:center;
 
-    flex:1;
+    flex-basis:400px;
     
 }
 
@@ -122,7 +149,7 @@ flex:0 0 500px;
 .sec-four{
 
     display:flex;
-    flex:1;
+    flex-basis:300px;
     justify-content:center;
 
 
@@ -153,5 +180,5 @@ footer {
 
 
 
-    flex:1
+    flex-basis:100px;
 }
