@@ -38,9 +38,6 @@ header {
     display:flex;
 }
  
-    
-    
-
 .top-link {
 
     font-family: SNOT, "times new roman", sans-serif;
@@ -55,17 +52,30 @@ header {
 
 .sec-one {
 
+    align-items:center;
     display:flex;
-    flex-basis:500px; 
+    flex-basis: 500px; 
+    background-image: url('https://media.giphy.com/media/l0MYRE3WCmzXCzys8/giphy.gif'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position:center;
+    padding: 350px 0px;
+    flex-wrap:wrap;
+    
 }
 
 .website-awesome {
 
-    display:flex;
+    font-family: toxia, "times new roman", sans-serif;
+    color:rgb(42, 121, 16);
     flex:1;
+    display:flex;
     flex-direction:column;
-    align-items:center;
     justify-content:center;
+    height:200px;
+    padding:100px;
+    background-color:rgb(255, 255, 0, .6);
+    flex-basis:380px;
 }
 
 .awesome-image {
@@ -75,11 +85,31 @@ header {
 
     align-items:center;
     justify-content:center;
+    height:200px;
+    padding:100px;
+    background-color:rgb(255, 255, 0, .6);
+    flex-basis:380px;
 
 }
 
 #awe-image {
 flex:0 0 500px;
+}
+
+.button-awesome{
+
+    border-radius:15px;
+    width:200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(59 112 60) ;
+    font-size:30px;
+    font-family: toxia, "times new roman", sans-serif;
+    color:yellow;
+    
+    
 }
 
 .sec-two {
