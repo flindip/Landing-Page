@@ -56,7 +56,6 @@ header {
 .website-awesome {
 
     font-family: toxia, "times new roman", sans-serif;
-    color:rgb(59 112 60);
     flex:1 0 581px;
     display:flex;
     flex-direction:column;
