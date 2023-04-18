@@ -14,7 +14,7 @@ header {
     display:flex;
     justify-content:space-around;
     align-items:center;
-    
+    border-bottom: solid black 4px;
 }
 
 .header{
@@ -41,13 +41,15 @@ header {
     align-content:center;
     align-items:center;
     display:flex;
-    flex-basis: 1000px; 
+    flex-basis: 500px; 
     background-image: url("images-icons-fonts/I'm-trash.gif"); 
-    background-repeat: no-repeat; 
-    background-size: cover;
     background-position:center;
     padding: 80px 0px;
     flex-wrap:wrap;
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-color: #ffcd00;
+    border-bottom: solid black 4px;
     
 }
 
@@ -73,8 +75,7 @@ header {
 
     display:flex;
     flex:1;
-
-    align-items:center;
+     align-items:center;
     justify-content:center;
     height:200px;
     padding:100px;
@@ -122,24 +123,20 @@ flex:0 0 500px;
    padding: 100px 0px;
     max-height: 1190px;
     gap: 20px;
+    border-bottom: solid black 4px;
     
     
 }
-
-
-
-
 .mid-image {
     display:flex;
     flex-wrap:wrap;
     height:300px;
     width: 300px;
     border-radius: 15px;
-
-
+    border: solid yellow 2px;
 }
 
-    .image-container { 
+.image-container { 
 
         flex-wrap:wrap;
          display:flex;
@@ -155,7 +152,7 @@ flex:0 0 500px;
     flex-direction:column;
     align-content:center;
     justify-content:center;
-     flex-basis:500px;
+     flex-basis:400px;
     background-image:url('images-icons-fonts/raccoon.gif');
     background-repeat:repeat;
     background-attachment:fixed;
@@ -167,6 +164,7 @@ flex:0 0 500px;
     text-shadow: 3px 3px black;
     -webkit-text-stroke: black;
     -webkit-text-stroke-width: 1px;
+    border-bottom: solid black 4px;
 
   }
 
@@ -186,6 +184,7 @@ flex:0 0 500px;
     justify-content:center;
     align-items: center;
     background-color: rgb(255 205 0);
+    border-bottom: solid black 4px;
 
 
 }
@@ -193,7 +192,7 @@ flex:0 0 500px;
       
 
 .sign-up.container {
-    flex:0 0 65%;
+    flex:0 1 55%;
     align-items:center;
     display:flex;
     justify-content: space-evenly;
@@ -216,8 +215,7 @@ flex:0 0 500px;
     flex-wrap: wrap;
     justify-content: left;
     align-content: center;
-    flex: 0 0 355px;
-    flex:1 1 450px;
+    flex: 0 1 700px;
     margin-left:10px;
   
     
